@@ -5,7 +5,7 @@ import java.util.Stack;
 
 /**
  * 有效括号检测（栈的使用）
- *
+ * url:https://leetcode-cn.com/articles/valid-parentheses/
  */
 public class ValidBrackets {
 

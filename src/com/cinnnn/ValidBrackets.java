@@ -15,7 +15,7 @@ public class ValidBrackets {
         System.out.println(isValidInput(scanner.next()));
     }
 
-    public static boolean isValidInput(String s) {
+    private static boolean isValidInput(String s) {
         char[] chars = s.toCharArray();
         Stack<Character> stringStack = new Stack<>();
         if (chars.length == 0) {

@@ -43,7 +43,18 @@ public class BinaryConversion {
         System.out.printf(res);
     }
 
-
+    /**
+     *  任意进制转10进制
+     * @param s 二进制字符串
+     */
+    public static void decimal (String s){
+        // 2进制转10进制
+        Integer.valueOf(s,2);
+        // 8进制转10进制
+        Integer.valueOf(s,8);
+        // 16进制转10进制
+        Integer.valueOf(s,16);
+    }
 
 
     public static void main(String[] args) {
